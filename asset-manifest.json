@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/music-for-today/static/css/main.2e347a9e.chunk.css",
+    "main.js": "/music-for-today/static/js/main.56517f53.chunk.js",
+    "main.js.map": "/music-for-today/static/js/main.56517f53.chunk.js.map",
+    "runtime-main.js": "/music-for-today/static/js/runtime-main.2e69ae81.js",
+    "runtime-main.js.map": "/music-for-today/static/js/runtime-main.2e69ae81.js.map",
+    "static/js/2.b87a589a.chunk.js": "/music-for-today/static/js/2.b87a589a.chunk.js",
+    "static/js/2.b87a589a.chunk.js.map": "/music-for-today/static/js/2.b87a589a.chunk.js.map",
+    "static/js/3.4ab414dd.chunk.js": "/music-for-today/static/js/3.4ab414dd.chunk.js",
+    "static/js/3.4ab414dd.chunk.js.map": "/music-for-today/static/js/3.4ab414dd.chunk.js.map",
+    "index.html": "/music-for-today/index.html",
+    "static/css/main.2e347a9e.chunk.css.map": "/music-for-today/static/css/main.2e347a9e.chunk.css.map",
+    "static/js/2.b87a589a.chunk.js.LICENSE.txt": "/music-for-today/static/js/2.b87a589a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e69ae81.js",
+    "static/js/2.b87a589a.chunk.js",
+    "static/css/main.2e347a9e.chunk.css",
+    "static/js/main.56517f53.chunk.js"
+  ]
+}
