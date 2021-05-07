@@ -6,45 +6,17 @@ const Weather = (props) => {
     console.log("click!");
 
     const url =
-      "https://apis.data.go.kr/1360000/VilageFcstInfoService/getUltraSrtNcst"; /*URL*/
-    let queryParams =
-      "?" +
-      encodeURIComponent("ServiceKey") +
-      "=" +
-      process.env.REACT_APP_API_KEY; /*Service Key*/
-    queryParams +=
-      "&" + encodeURIComponent("pageNo") + "=" + encodeURIComponent("1"); /**/
-    queryParams +=
-      "&" +
-      encodeURIComponent("numOfRows") +
-      "=" +
-      encodeURIComponent("10"); /**/
-    queryParams +=
-      "&" +
-      encodeURIComponent("dataType") +
-      "=" +
-      encodeURIComponent("XML"); /**/
-    queryParams +=
-      "&" +
-      encodeURIComponent("base_date") +
-      "=" +
-      encodeURIComponent("20210507"); /**/
-    queryParams +=
-      "&" +
-      encodeURIComponent("base_time") +
-      "=" +
-      encodeURIComponent("1500"); /**/
-    queryParams +=
-      "&" + encodeURIComponent("nx") + "=" + encodeURIComponent("18"); /**/
-    queryParams +=
-      "&" + encodeURIComponent("ny") + "=" + encodeURIComponent("1"); /**/
+      "http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastGrib?ServiceKey=iX9TeNbklJpnqP5WF3MKqw6YEYOSlMOROyH6kwa9%2FuEUqnOSOcY9wBrylCYWDywZ1J9EtuSc9uAFQK9Pj%2BZLfA%3D%3D&nx=60&ny=127&base_date=20210506&base_time=2100&_type=json";
 
-    fetch(`${url}${queryParams}`)
+    fetch(`${url}`)
       .then(function (response) {
         return response.json();
       })
       .then(function (myJson) {
         console.log(JSON.stringify(myJson));
+      })
+      .catch((error) => {
+        console.log(error);
       });
   };
 
