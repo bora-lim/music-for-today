@@ -6,7 +6,7 @@ const Weather = (props) => {
     console.log("click!");
 
     const apiKey = process.env.REACT_APP_API_KEY;
-    const url = `http://apis.data.go.kr/1360000/VilageFcstInfoService/getUltraSrtNcst?ServiceKey=${apiKey}&dataType=JSON&base_date=20210507&base_time=0500&nx=60&ny=120`;
+    const url = `/1360000/VilageFcstInfoService/getUltraSrtNcst?ServiceKey=${apiKey}&dataType=JSON&base_date=20210507&base_time=0500&nx=60&ny=120`;
 
     fetch(url)
       .then(function (response) {
