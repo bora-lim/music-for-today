@@ -1,0 +1,14 @@
+$blue: #228be6;
+$font-small: 12px;
+$font-medium: 14px;
+$font-large: 17px;
+
+button {
+  width: 300px;
+  height: 100px;
+  font-size: $font-medium;
+
+  &:hover {
+    background: lighten($blue, 10%);
+  }
+}
