@@ -6,7 +6,7 @@ const Weather = (props) => {
     console.log("click!");
 
     const url =
-      "http://apis.data.go.kr/1360000/VilageFcstInfoService/getUltraSrtNcst"; /*URL*/
+      "https://apis.data.go.kr/1360000/VilageFcstInfoService/getUltraSrtNcst"; /*URL*/
     let queryParams =
       "?" +
       encodeURIComponent("ServiceKey") +
