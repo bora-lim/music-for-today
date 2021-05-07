@@ -6,7 +6,7 @@ const Weather = (props) => {
     console.log("click!");
 
     const apiKey = process.env.REACT_APP_API_KEY;
-    const url = `http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastGrib?ServiceKey=${apiKey}&nx=60&ny=127&base_date=20210506&base_time=2100&_type=json`;
+    const url = `http://apis.data.go.kr/1360000/VilageFcstInfoService/getUltraSrtNcst?ServiceKey=${apiKey}&dataType=JSON&base_date=20210507&base_time=0500&nx=60&ny=120`;
 
     fetch(url)
       .then(function (response) {
